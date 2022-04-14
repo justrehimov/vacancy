@@ -1,0 +1,61 @@
+body {
+    background: rgb(9, 59, 124);
+}
+#container{
+    min-height: 90vh;
+    max-height: 90vh;
+    overflow-y: scroll;
+    padding: 3rem 2rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #07589b;
+}
+
+.profile-button {
+    background: rgb(9, 59, 124);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #03338d;
+}
+
+.profile-button:focus {
+    background: #03338d;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #03338d;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #03338d;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #07589b;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #07589b;
+}
+.error-message{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0.3rem 0 0.5rem;
+    margin-top: 1.4rem;
+    color: red !important;
+    font-size: 1.1rem;
+}

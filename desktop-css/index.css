@@ -1,0 +1,77 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background:url(../images/join_group.jpg);
+    background-color: rgba(0,0,0, 0.7);
+    background-repeat:no-repeat ;
+    background-size: 100% 25rem;
+    background-blend-mode: darken;
+    z-index: -1;
+    color: white;
+}
+.header h1{
+    padding:2rem 0 1rem 0;
+}
+.category{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 1rem;
+}
+.category h1,a{
+    padding-bottom: 10px;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem 0rem 1rem 0rem;
+}
+.cards{
+    width: 23%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #0EBBDA;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(136, 154, 206);
+    transition: all .3s;
+}
+.cards:hover{
+    transform: translateY(-0.5rem);
+}
+.cards i{
+    font-size: 2.5rem !important;
+    color: #48a4e2;
+}
+.cards a{
+    text-decoration: none !important;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: black !important;
+}
+.cards a:hover{
+    color: #0EBBDA !important;
+}

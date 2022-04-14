@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.container form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.warning{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 0.5rem 0rem;
+    height: auto;
+    background-color: rgba(231, 198, 10,0.5);
+    color: black;
+}
+.message{
+    font-size: 1.2rem;
+}
+.close{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0.3rem;
+    background: transparent;
+    color: rgb(68, 68, 68);
+    font-size: 2rem;
+    cursor: pointer;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin: 1rem 0.2rem;
+}
+.form-group label{
+    margin: 0.5rem 0.1rem;
+}
+.form-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-control{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #0EBBDA;
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin: 0rem;
+    width: 100%;
+    font-size: 1.05rem;
+}
+.custom-select{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #0EBBDA;
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin: 0rem;
+    width: 100%;
+    font-size: 1.05rem;
+}
+.wide{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #0EBBDA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    float: right;
+    cursor: pointer;
+}
+.error-message{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0.3rem 0 0.5rem;
+    color: red !important;
+    font-size: 1.2rem;
+}

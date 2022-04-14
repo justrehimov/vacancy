@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background:linear-gradient(to right,#0EBBDA,#107EB5,#7d2ae8);
+    color: white;
+    padding: 1.5rem !important;
+    font-size: 1.4rem !important;
+}
+.hamburger-btn{
+    display: none;
+}
+.top-bar{
+    display: none;
+}
+.navbar-menu{
+    display: flex !important;
+    list-style: none !important;
+}
+.navbar-menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px !important;
+    margin: 5px !important;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin:0px 8px 0 8px;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    width: 23rem;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    border:1px solid rgb(214, 214, 214);
+    position: absolute;
+    z-index: 1;
+    color: #011657;
+    transform: translateX(-19rem) translateY(0.5rem);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown a{
+    padding: 20px 10px;
+    font-size: 1.8rem;
+}
+.account-menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.account-menu a{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: black !important;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+}
+.account-menu a i{
+    font-size: 1.4rem;
+}
+.account-menu a:hover{
+    color: #0EBBDA !important;
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #0EBBDA;
+    padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+}
+.img-container{
+    width: 35%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-profile{
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.about-user{
+    display: flex;
+    width: 63%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+.about-user span:nth-child(1){
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+.about-user span:nth-child(2){
+    font-size: 0.9rem;
+    padding: 5px 0;
+}
+.footer{
+    width: 100%;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(to right,#0EBBDA,#107EB5,#7d2ae8);
+    color: white;
+    padding: 1.5rem !important;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts ul{
+    list-style: none;
+}
+.contacts ul li a{
+    display: inline-block;
+    text-decoration: none !important;;
+    color: white !important;;
+    opacity: 80%;
+    padding: 3px;
+    font-size: 1.1rem;
+}
+.contacts ul li a:hover{
+    opacity: 100%;
+    text-decoration: none !important;;
+    color: white !important;
+}
+.links{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    width: 2.3rem;
+    height:2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.6rem;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+}
+.insta{
+    background:linear-gradient(to right,#8a3ab9,#bc2a8d,#fccc63,#fbad50 );
+    border-radius: 12px;
+}
+.insta:hover{
+    color: white;
+    text-decoration: none;
+}
+.whatsapp{
+    background-color: #25D366 ;
+}
+.whatsapp:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.telegram{
+    background-color: #229ED9;
+}
+.telegram:hover{
+    color: white;
+    text-decoration: none;
+}
+.face{
+    border-radius: 10px;
+    background-color:#4267B2 ;
+}
+.face:hover{
+
+    color: white;
+    text-decoration: none;
+}
+.up{
+    text-decoration: none !important;
+    color: white !important;
+}

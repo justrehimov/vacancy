@@ -1,0 +1,112 @@
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.content h1{
+    padding: 1rem;
+}
+.post-header{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto auto auto;
+    background:linear-gradient(to right,#0EBBDA,#107EB5,#7d2ae8);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.post-item{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #fdfdfd;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.post-item span{
+   color:blue !important; 
+}
+.post-header span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+}
+.post-header span button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    width: 48%;
+    height: 4rem;
+    background: white;
+    border: 1px solid #0EBBDA;
+    color: #0EBBDA;
+    padding: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.post-header span button:hover{
+    color: white;
+    background-color: #0EBBDA;
+    border: 1px solid white;
+}
+.about-post{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to right,#0EBBDA,#107EB5,#7d2ae8);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    margin: 0.5rem;
+}
+.about h2{
+    background-attachment: fixed;
+    padding:1rem 0 1rem 0.5rem;
+    font-weight: bold;
+}
+.about span{
+    padding: 0.7rem;
+    margin-left: 1rem;
+    font-weight: 170;
+    font-size: 1.1rem;
+}
+.info ul{
+    list-style-type:disc;
+    margin:1rem 1rem 1rem 3rem;
+}
+.info ul li{
+    padding:0.4rem;
+    font-size:1.1rem;
+}   
