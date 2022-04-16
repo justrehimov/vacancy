@@ -84,15 +84,16 @@ $company = "";
             $vacancysql = "";
 
         if(isset($_GET['keyword']) || isset($_GET['category'])){
-            $keyword = "empty";
+            $keyword = "";
+            $s_category =  $_GET['category'];
             if(!empty($_GET['keyword'])){
                 $keyword = $_GET['keyword'];
             }
-            $s_category = $_GET['category'];
-            $vacancysql = searchVacancy($keyword, $s_category);
-        }
-        else{
-            $vacancysql = getAllVacancy();
+            if($s_category == 0 & empty($keyword)){
+                    $vacancysql = getAllVacancy();
+            }else{
+                $vacancysql = searchVacancy($keyword, $s_category);
+            }             
         } 
         while($result = mysqli_fetch_array($vacancysql)){
             $company = getCompanyById($result['COMPANY_ID']);

@@ -107,7 +107,7 @@ else{
                 <span class="error-txt" id="error"><?=$error?></span>
             </div>
             <input class="input btn" type="submit" name="loginbtn" value="Login">
-            <div class="texts"><label><span>You don't have any account?</span><a href="register.php">Sign up</a></label></div>
+            <div class="texts"><label><span>You don't have any account?  </span><a href="register.php">Sign up</a></label></div>
         </div>
     </form>
 </div>
